@@ -112,7 +112,7 @@ class SSP_Admin {
 			add_action( 'current_screen', array( $this, 'check_existing_podcasts' ) );
 			
 			// Show upgrade screen
-			add_action( 'current_screen', array( $this, 'show_upgrade_screen' ), 12 );
+			// add_action( 'current_screen', array( $this, 'show_upgrade_screen' ), 12 );
 			
 			// Check if a valid permalink structure is set and show a message
 			add_action( 'admin_init', array( $this, 'check_valid_permalink' ) );
